@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Meta tags setup -->
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Page title -->
+  <title>Protfolio</title>
+
+  <!-- Page icon -->
+  <link rel="icon" type="image/x-icon" href="./assets/wolf.jpg">
+
+  <!-- Remote stylesheet -->
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- AOS stylesheet -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Local stylesheet -->
+  <link rel="stylesheet" href="./style/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <!-- We can name that the navBar title!-->
+    <a href="#" class="logo">Portfolio.</a>
+
+    <!-- Adding navBar links with nav tage -->
+    <nav class="navBar">
+      <a href="#" style="--i:1;" class="active">Home</a>
+      <a href="#about-me" style="--i:2;">About</a>
+      <a href="#" style="--i:3;">Contact</a>
+      <a href="#" style="--i:4;">Other</a>
+    </nav>
+  </header>
+
+  <section class="Home">
+    <div class="home-content">
+      <div class="text-container">
+        <h3>Hello world, that's me</h3>
+        <h1>Yousef osama</h1>
+        <h3>I'm a <span class="multi-text"></span></h3>
+        <p>Experienced Javascript, Web and device applications, <br>
+          with a focus on back-end and software applications.
+        </p>
+        <div class="social-media">
+          <a href="#"><i class="bx bxl-github"></i></a>
+          <a href="#"><i class="bx bxl-twitter"></i></a>
+          <a href="#"><i class="bx bxl-instagram"></i></a>
+          <a href="#"><i class="bx bxl-discord-alt"></i></a>
+        </div>
+        <div class="home-buttons">
+          <button href="#"><a href="#">Contact</a></button>
+          <button href="#"><a href="#">About</a></button>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="./assets/wolf.jpg" alt="Yousef osama's wolf logo" />
+      </div>
+    </div>
+  </section>
+  <section class="About-skills bg-dark.bg-gradient" id="about-me">
+    <div class="about-content">
+      <div class="container d-flex flex-wrap justify-content-around flex-row p-2">
+        <div class="about-img mb-5">
+          <img src="./assets/wolf.jpg" alt="About me image" data-aos="fade-right" />
+        </div>
+        <div class="text-container" data-aos="fade-up" data-aos-duration="1000">
+
+          <h3 class="text-light text-center text-uppercase fs-5 fw-bolder mb-3">
+            <i class='bx bx-face bx-tada human-icon'></i> About <span class="text-info">me</span>
+          </h3>
+          <p class="text-white-50 text-center text-start text-wrap">
+            Hi, my name is yousef osama, but online I go by the username WOLF.<br> I'm a software developer with a
+            passion
+            for creating cool things that people can use and enjoy.<br> My primary focus is on developing Web and
+            Desktop apps and developing my cybersecurity skills,<br> but I'm always interested in learning and exploring
+            new areas of
+            development.<br>
+          </p>
+          <p class="text-white-50 text-center text-start text-wrap collapse" id="collapseP">
+            While my core interests encompass web and desktop app development,<br> I'm also enthusiastic about exploring
+            the cybersecurity landscape.<br> Beyond that, I'm a fervent explorer of emerging technologies <br> and an
+            avid reader of the latest advancements in the field of computer science.<br> Engaging in tech-related
+            discussions and staying updated on the industry's progress is a personal passion of mine.<br><br>
+            If you have any questions or would like to collaborate on a project,<br> feel free to reach out to me on
+            Discord at yousefosama1 or on any of my social media accounts.<br> I'm always happy to chat with fellow
+            developers and help out in any way I can.
+          </p>
+          <button class="btn btn-info type=" button" data-bs-toggle="collapse" data-bs-target="#collapseP"
+            aria-expanded="false" aria-controls="collapseP"">Show more..</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class=" projects-showcase p-2">
+            <div class=" projects-showcase p-5 container text-center" data-aos="zoom-in-down">
+              <div class="text-container mb-5 mt-2">
+                <h1 class="mb-3">My Projects</h1>
+                <!-- <p class="text-white-50">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p> -->
+              </div>
+              <div class="row mt-4">
+                <!-- Project 1 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3" data-aos="fade-right">
+                  <div class="project-card border border-secondary">
+                    <img src="./assets/WolfyBot.png" alt="Project 1">
+                    <div class="project-name">Discord Wolfy bot</div>
+                  </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3 " data-aos="flip-up">
+                  <div class="project-card border border-secondary">
+                    <img src="./assets/simple-site.png" alt="Project 2">
+                    <div class="project-name">A simple site for business</div>
+                  </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3 " data-aos="zoom-in-up">
+                  <div class="project-card border border-secondary">
+                    <img src="./assets/wolfy-dashboard.png" alt="Project 3">
+                    <div class="project-name">Wolfy bot dashboard</div>
+                  </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="col-lg-4 col-md-6 col-sm-12 mb-3 " data-aos="fade-right">
+                  <div class="project-card border border-secondary">
+                    <img src="./assets/Protofolio.png" alt="Project 3">
+                    <div class="project-name">This protoflio!</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  </section>
+  <footer class="footer">
+    <div class="container d-flex justify-content-between mt-3">
+      <div class="text-container text-left text-wrap">
+        <h3 class="fs-2 fw-semibold">Made by <span class="text-info">Yousef osama.</span></h3>
+      </div>
+      <div class="link-items d-flex flex-column mb-3">
+        <a href="#"><i class='bx bx-up-arrow-alt arrow-icon border border-light border-3'></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+  <script src="./js/script.js"></script>
+  <!-- AOS SCRIPT -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
