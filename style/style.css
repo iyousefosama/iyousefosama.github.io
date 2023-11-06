@@ -238,19 +238,28 @@ header .logo {
     }
 }
 
-/* Media query for screens with a maximum width of 600px (adjust this as needed) */
-@media (max-width: 600px) {
+
+/* Media query for screens with a maximum width of 750px (adjust this as needed) */
+@media (max-width: 750px) {
+    .home-img img {
+        margin-left: auto;
+    }
+
+}
+/* Media query for screens with a maximum width of 650px (adjust this as needed) */
+@media (max-width: 650px) {
 
     .home-content {
         flex-direction: column;
         text-align: center;
         align-items: center;
         position: relative;
-        margin-left: 10%;
+        left: 10%;
     }
 
     .home-content .text-container {
         text-align: center;
+        padding: 0;
     }
 
     .home-content .text-container h3 {
@@ -259,6 +268,7 @@ header .logo {
     }
 
     .home-content .text-container h3 span {
+        font-size: 17px;
         color: #0ef;
     }
 
@@ -268,12 +278,23 @@ header .logo {
         font-weight: 600;
     }
 
+    .home-content .social-media a {
+        width: 30px;
+        height: 30px;
+        font-size: 17px;
+        margin: 25px 15px 5px 0;
+    }
+
     .home-img img {
         width: 320px;
         /* Adjust the width as needed */
-        margin: 20px;
+        margin: 20px 15px 5px 0;
         /* Add margin to the top and bottom of the image, remove left margin */
         border-radius: 10%;
+    }
+
+    .home-content .home-buttons button {
+        font-size: 0.6rem;
     }
 }
 
