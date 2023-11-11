@@ -51,19 +51,31 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
-  <header class="header">
-    <!-- We can name that the navBar title!-->
-    <a href="#" class="logo">Portfolio.</a>
-
-    <!-- Adding navBar links with nav tage -->
-    <nav class="navBar" id="navbar">
-      <a href="#Home" style="--i:1;" class="active">Home</a>
-      <a href="#about-me" style="--i:2;">About</a>
-      <a href="#skills" style="--i:3;">Skills</a>
-      <a href="#projects" style="--i:4;">Projects</a>
-    </nav>
-  </header>
-
+  
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home" style="--i:1;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me" style="--i:2;">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" style="--i:3;">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" style="--i:4;">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <section class="Home" id="Home">
     <div class="home-content">
       <div class="text-container">
@@ -81,8 +93,8 @@
               class='bx bxl-youtube'></i></a>
         </div>
         <div class="home-buttons">
-          <button href="#about-me"><a href="#about-me">About</a></button>
-          <button href="#projects"><a href="#projects">Projects</a></button>
+          <a href="#about-me"><button href="#about-me">About</button></a>
+          <a href="#projects"><button href="#projects">Projects</button></a>
         </div>
       </div>
       <div class="home-img">
@@ -125,7 +137,7 @@
     </div>
   </section>
   <!-- Skills section start. -->
-  <section class=" skills-section" id="skills">
+  <section class="skills-section" id="skills">
             <div class="text-container text-center">
               <h2 class="fw-bolder mb-3" data-aos="fade-up">My <span class="text-info"
                   data-aos="fade-down">Skills</span></h2>
@@ -178,11 +190,11 @@
   <!-- Skills section end.-->
   <section class="projects-showcase p-2 mb-5" id="projects">
     <div class=" projects-showcase p-5 container text-center" data-aos="zoom-in-down">
-      <div class="text-container mb-5 mt-2">
-        <h1 class="mb-3 mt-3">My Projects</h1>
-        <!-- <p class="text-white-50">
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                </p> -->
+      <div class="text-container mb-3 mt-2">
+        <h1 class="mb-5 mt-3"><span class="bg-primary text-white fw-bold p-3 shadow-lg rounded">Projects!</span></h1>
+        <p class="text-white-50">
+          Explore a selection of my recent projects showcasing some of my skills and creativity. 
+        </p>
       </div>
       <div class="row mt-4">
         <!-- Project 1 -->
