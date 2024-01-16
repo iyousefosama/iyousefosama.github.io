@@ -417,7 +417,7 @@ active {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(38, 38, 43, 0.8);
     color: #fff;
     padding: 5px 10px;
     opacity: 0;
@@ -532,6 +532,7 @@ active {
     box-shadow: 2px 2px 4px brgb(19, 19, 19);
     align-items: center;
     z-index: 99;
+    color:#fff;
     background: #222831;
 }
 
@@ -540,4 +541,39 @@ active {
     color: white;
 }
 
+.arrow-icon:hover {
+    color:rgb(92, 242, 253);
+}
+
+.footer-clean h3 {
+  margin-top:20px;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
+}
+
+.footer-clean ul {
+  padding:0;
+  list-style:none;
+  line-height:1.6;
+  font-size:14px;
+  margin-bottom:0;
+}
+
+.footer-clean ul a {
+  color:inherit;
+  text-decoration:none;
+  opacity:0.8;
+}
+
+.footer-clean ul a:hover {
+  opacity:1;
+}
+
+.footer-clean .copyright {
+  margin-top:30px;
+  margin-bottom:0;
+  font-size:13px;
+  opacity:0.6;
+}
 /* End footer */

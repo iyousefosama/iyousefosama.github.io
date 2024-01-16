@@ -13,7 +13,7 @@
   <meta name="theme-color" content="#eeba30" />
   <!-- Meta name & type -->
   <meta property='og:site_name' content='Yousef'>
-  <meta property='og:type' content='website'>
+  <meta property='og:type' content='portfolio'>
 
   <!-- description -->
   <meta name='description'
@@ -51,15 +51,16 @@
 </head>
 
 <body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-smooth-scroll="true" tabindex="0">
-  
+
   <nav class="navbar navbar-expand-lg">
     <div class="container">
       <a class="navbar-brand logo" href="#">Portfolio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"><i class='bx bx-menu'></i></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#Home" style="--i:1;">Home</a>
           </li>
@@ -129,8 +130,8 @@
             If you have any questions or would like to collaborate on a project,<br> feel free to reach out to me on
             Discord at yousefosama1 or on any of my social media accounts.<br> I'm always happy to chat with fellow
             developers and help out in any way I can.<br><br>
-              <span id="age" class="text-warning fw-bold"></span><br>
-              <span id="countdown" class="text-info text-bg-dark p-2 d-inline-block mt-2"></span>
+            <span id="age" class="text-warning fw-bold"></span><br>
+            <span id="countdown" class="text-info text-bg-dark p-2 d-inline-block mt-2"></span>
           </p>
           <button class="btn btn-info type=" button" data-bs-toggle="collapse" data-bs-target="#collapseP"
             aria-expanded="false" aria-controls="collapseP"">Show more..</button>
@@ -139,7 +140,7 @@
     </div>
   </section>
   <!-- Skills section start. -->
-  <section class="skills-section" id="skills">
+  <section class=" skills-section" id="skills">
             <div class="text-container text-center">
               <h2 class="fw-bolder mb-3" data-aos="fade-up">My <span class="text-info"
                   data-aos="fade-down">Skills</span></h2>
@@ -195,7 +196,7 @@
       <div class="text-container mb-3 mt-2">
         <h1 class="mb-5 mt-3"><span class="bg-primary text-white fw-bold p-3 shadow-lg rounded">Projects!</span></h1>
         <p class="text-white-50">
-          Explore a selection of my recent projects showcasing some of my skills and creativity. 
+          Explore a selection of my recent projects showcasing some of my skills and creativity.
         </p>
       </div>
       <div class="row mt-4">
@@ -236,10 +237,43 @@
         <h3 class="fs-2 fw-semibold">Made by <span class="text-info">Yousef osama.</span></h3>
       </div>
       <div class="link-items d-flex flex-column mb-3">
-        <a href="#"><i class='bx bx-up-arrow-alt arrow-icon border border-light border-3'></i></a>
+        <a href="#" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="Go to top of the page!"><i class='bx bx-up-arrow-alt arrow-icon border border-light border-3'></i></a>
       </div>
     </div>
+    <div class="footer-clean">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Services</h3>
+            <ul>
+              <li><a href="pages/Soon.html">Web design</a></li>
+              <li><a href="pages/Soon.html">Development</a></li>
+              <li><a href="pages/Soon.html">Hosting</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>Projects</h3>
+            <ul>
+              <li><a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=821655420410003497&permissions=8&scope=bot%20applications.commands">Wolfy invite</a></li>
+              <li><a target="_blank" href="https://wolfy.lunarforge.online">Wolfy site</a></li>
+              <li><a target="_blank" href="https://iiblackwolf.github.io/Business-website-demo">Business site</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-4 col-md-3 item">
+            <h3>About</h3>
+            <ul>
+              <li><a href="#About">About me</a></li>
+              <li><a href="pages/Soon.html">How to reach</a></li>
+              <li><a href="pages/Soon.html">Free lancing</a></li>
+            </ul>
+          </div>
+          <p class="copyright text-end">Yousef osama hassan © <span id="currentYEAR"></span></p>
+        </div>
+      </div>
+    </div>
+    </div>
   </footer>
+
   <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
