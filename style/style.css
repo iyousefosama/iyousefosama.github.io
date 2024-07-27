@@ -511,34 +511,29 @@ active {
     color: #fff;
 }
 
-.html {
-    width: 90%;
-    background: linear-gradient(to right, #FFCF54 0%, #FF9E1B 100%);
+.front {
+    width: 60%;
+    background: linear-gradient(to right, #fdb603 0%, #fffc5a 100%);
 }
 
-.css {
-    width: 80%;
+.back {
+    width: 50%;
     background: linear-gradient(to right, #112D5E 0%, #B21F66 100%);
 }
 
-.js {
-    width: 65%;
-    background: linear-gradient(to right, #FFDB2F 0%, #F4FD00 100%);
+.desk {
+    width: 80%;
+    background: linear-gradient(to right, #7700ff 0%, #8559ff 100%);
 }
 
 .python {
     width: 50%;
-    background: linear-gradient(to right, #056F92 0%, #063954 100%);
+    background: linear-gradient(to right, #306998 0%, #0a9eee 100%);
 }
 
 .java {
     width: 50%;
     background: radial-gradient(circle at 0.8% 1.8%, #FF686B 0%, #FFBB67 100%);
-}
-
-.react {
-    width: 50%;
-    background: linear-gradient(to right, #1E90E7 0%, #4365E1 100%);
 }
 
 /* Skills section end */
