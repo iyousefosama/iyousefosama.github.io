@@ -436,6 +436,7 @@ active {
     left: 50%;
     transform: translate(-50%, -50%);
     background: rgba(38, 38, 43, 0.8);
+    border-radius: 5%;
     color: #fff;
     padding: 5px 10px;
     opacity: 0;

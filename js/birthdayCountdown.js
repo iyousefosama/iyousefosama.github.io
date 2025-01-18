@@ -1,4 +1,4 @@
-const Birth = [1, 19] // MM-DD
+const Birth = [1, 20] // MM-DD
 
 // Function to calculate the time remaining until the next birthday
 function calculateTimeUntilBirthday() {
